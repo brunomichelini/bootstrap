@@ -1,0 +1,241 @@
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awsome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+    <title>Web World</title>
+<style type="text/css">.vue-notification-group{display:block;position:fixed;z-index:5000}.vue-notification-wrapper{display:block;overflow:hidden;width:100%;margin:0;padding:0}.notification-title{font-weight:600}.vue-notification-template{background:#fff}.vue-notification,.vue-notification-template{display:block;box-sizing:border-box;text-align:left}.vue-notification{font-size:12px;padding:10px;margin:0 5px 5px;color:#fff;background:#44a4fc;border-left:5px solid #187fe7}.vue-notification.warn{background:#ffb648;border-left-color:#f48a06}.vue-notification.error{background:#e54d42;border-left-color:#b82e24}.vue-notification.success{background:#68cd86;border-left-color:#42a85f}.vn-fade-enter-active,.vn-fade-leave-active,.vn-fade-move{transition:all .5s}.vn-fade-enter,.vn-fade-leave-to{opacity:0}</style>
+</head>
+
+<body>
+    <header class="py-2 mb-4 bg-dark">
+        <div class="container d-flex justify-content-between text-light">
+            <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+                <span class="fs-4 text-light">Web World</span>
+            </a>
+            <div>
+                <i class="fa-solid fa-rss pe-3 align-self-center"></i>
+                <i class="fa-brands fa-facebook-f pe-3 align-self-center"></i>
+                <i class="fa-brands fa-twitter pe-3 align-self-center"></i>
+                <i class="fa-brands fa-linkedin-in align-self-center"></i>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+  
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">About-us</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">Service</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">Pages</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">Blog</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">Contact-us</a></li>
+          </ul>
+  
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+          </form>        
+        </div>
+    </div>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagens/PonteJK.jpg"  alt="" style="width:100%;height:500px; background-color: #000;">
+
+            <div class="container">
+              <div class="carousel-caption text-center">
+                <h1>Welcome to our Website 1</h1>
+                <p>Some representative placeholder content for the first slide of the carousel.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-item-next carousel-item-start">
+            <img src="imagens/PonteJK.jpg"  alt="" style="width:100%;height:500px; background-color: #000;">
+
+            <div class="container">
+              <div class="carousel-caption text-center">
+                <h1>Welcome to our Website 2</h1>
+                <p>Some representative placeholder content for the second slide of the carousel.</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-item-next carousel-item-start">
+            <img src="imagens/PonteJK.jpg"  alt="" style="width:100%;height:500px; background-color: #000;">
+            
+            <div class="container">
+              <div class="carousel-caption text-center">
+                <h1>Welcome to our Website 3</h1>
+                <p>Some representative placeholder content for the third slide of this carousel.</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container  p-3  text-center">
+        <h1 class="display-6 fw-normal">Lorem Ipsum is simply dummy of the pricing</h1>
+        <p class="fs-5 text-muted">Quicly build an effective pricing table of your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization</p>
+    </div>
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4 text-center">
+          <!-- <img src="img1webp.webp" alt=""width="113" height="112px"> -->
+          <i class=" fa-5x fa-solid fa-desktop align-self-center width="></i>
+  
+          <h2 class="fw-normal">Heading</h2>
+          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 text-center">
+          <i class="fa-5x fa-light fa-pen-to-square align-self-center"></i>
+  
+          <h2 class="fw-normal">Heading</h2>
+          <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 text-center">
+          <i class="fa-5x fa-thin fa-image text-center"></i>
+  
+          <h2 class="fw-normal">Heading</h2>
+          <p>And lastly this, the third column of representative placeholder content.</p>
+          
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+  
+  
+      <!-- START THE FEATURETTES -->
+  
+      <hr class="featurette-divider">
+
+
+
+
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="imagens/img1.jpg" alt=""width="100%" height="100%">
+
+            <div class="card-body">
+              <h2 class="fw-normal">Loren Ipsum is simply</h2>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                 
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="imagens/img2.jpg" alt=""width="100%" height="100%">
+
+            <div class="card-body">
+              <h2 class="fw-normal">Loren Ipsum is simply</h2>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="imagens/img3.jpg" alt=""width="100%" height="100%">
+
+            <div class="card-body">
+              <h2 class="fw-normal">Loren Ipsum is simply</h2>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="imagens/img4.jpg" alt=""width="100%" height="100%">
+
+            <div class="card-body">
+              <h2 class="fw-normal">Loren Ipsum is simply</h2>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="imagens/img5.jpg" alt=""width="100%" height="100%">
+
+            <div class="card-body">
+              <h2 class="fw-normal">Loren Ipsum is simply</h2>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            
+            <img src="imagens/img6.jpg" alt=""width="100%" height="100%">
+
+            <div class="card-body">
+              <h2 class="fw-normal">Loren Ipsum is simply</h2>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
